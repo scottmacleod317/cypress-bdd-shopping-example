@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "cypress": "^10.6.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "name": "cypress-bdd-shopping-example",
+  "description": "This is a repo to demonstrate the use of Cypress with a BDD plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott-macleod-tech/cypress-bdd-shopping-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott-macleod-tech/cypress-bdd-shopping-example/issues"
+  },
+  "homepage": "https://github.com/scott-macleod-tech/cypress-bdd-shopping-example#readme",
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e"
+  }
+}
